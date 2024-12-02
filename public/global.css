@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/fonts/Poppins.ttf");
+  font-display: swap;
+}
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 6rem;
   }
-  @media (min-width: 1024px) {
-    html {
-      scroll-padding-top: 6rem;
-    }
-  }
+}
+body {
+  font-family: Poppins, sans-serif;
+}
